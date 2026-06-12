@@ -1,0 +1,19 @@
+# クライアントデータ・個人情報を含むCSV
+ga4_analysis/data/raw/*.csv
+ga4_analysis/data/raw/*.csv.csv
+
+# 分析済み出力（再生成可能）
+ga4_analysis/data/processed/*.csv
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Claude Code ローカル設定
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db

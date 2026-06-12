@@ -1,0 +1,26 @@
+# GA4分析プロジェクト 依存パッケージ
+# インストール方法: pip install -r requirements.txt
+
+# データ処理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# グラフ・可視化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Excel出力
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# HTMLレポート生成
+jinja2>=3.1.0
+
+# Jupyter Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ユーティリティ
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
